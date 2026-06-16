@@ -1,4 +1,4 @@
-#What is Python ?
+ #What is Python ?
 #Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It has a large standard library and a vibrant ecosystem of third-party packages, making it a popular choice for web development, data analysis, artificial intelligence, scientific computing, and more. Python's syntax emphasizes code readability, which allows developers to express concepts in fewer lines of code compared to other programming languages.
 
 #What is a variable in Python?
@@ -11,4 +11,3 @@ x = 10
 name = "Harsh"
 age = 30 
 height = 5.9
-
