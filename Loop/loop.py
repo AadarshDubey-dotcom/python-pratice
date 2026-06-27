@@ -15,4 +15,9 @@ n = int(input("Entert the number :"))
 for i in range(1,11):
      print(n*i)
 
-     
+#Reverse an array  
+arr = [1,2,3,4,5]
+arv = []
+
+for i in range(len(arr)-1, -1,-1):
+     print(arr[i])
