@@ -16,3 +16,33 @@ def even_and_odd(n):
           
 print(even_and_odd(n))          
 
+#list of sum 
+
+number = list(map(int, input("Enter numbers separated by space: ").split()))
+
+def sum_of_list(number):
+    total = 0
+    for num in number:
+        total = total + num
+    return total
+
+print("Sum of list =", sum_of_list(number))
+
+#reverse of string method one slice method
+string =  input("Enter text : ")
+
+def reverse(string):
+     return string[::-1]
+     
+print(reverse(string))
+
+#method second using loop
+string =  input("Enter text : ")
+
+def reverse(string):
+     rev = ""
+     for ch in string:
+          rev = ch + rev
+     return rev  
+     
+print(reverse(string))
