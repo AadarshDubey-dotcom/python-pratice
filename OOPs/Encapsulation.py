@@ -41,3 +41,29 @@ class Student:
 s1 = Student('harsh')               
 s1.set_marks(67)
 print(s1.get_marks())
+
+#create Employee Inheritance  in python
+class Empolyee:
+     def __init__(self, name, salary):
+          self.name = name
+          self.salary = salary
+          
+     def show_detail(self):
+          return f"Name: {self.name} salary: {self.salary}"
+          
+class Manager(Empolyee):
+     def manage_team(self):
+          return f"{self.name} is manage the team"
+          
+class Developer (Empolyee):
+     def write_code(self):
+          return f"{self.name} is writting code"
+          
+m1 = Manager("harsh", 59000)          
+d1 = Developer("Adarsh", 67888)
+
+print(m1.show_detail())
+print(m1.manage_team())
+
+print(d1.show_detail())
+print(d1.write_code())
