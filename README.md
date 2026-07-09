@@ -26,4 +26,4 @@ python Basic/Variable.py
 
 
 # ajj kuch nhi kiya hai kiyu ki net nhi chal rha hai 
-# abtrsction kal kruga
+# abtrsction kal kruga  aaj ko ako satrt krna 
