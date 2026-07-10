@@ -25,5 +25,3 @@ python Basic/Variable.py
 - This repository is a starting point for learning Python syntax and variable assignment.
 
 
-# ajj kuch nhi kiya hai kiyu ki net nhi chal rha hai 
-# abtrsction kal kruga  aaj ko ako satrt krna 
