@@ -40,3 +40,9 @@ for i in range(1, n+1):
      
 for i in range(n-1, 0, -1):
      print(" "*(n-i) + "* "*i)
+
+#Rotate array
+arr = [1,2,3,4]
+k = 2
+rot = arr[k:] + arr[:k]
+print(rot)     
