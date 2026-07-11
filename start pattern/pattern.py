@@ -46,3 +46,10 @@ arr = [1,2,3,4]
 k = 2
 rot = arr[k:] + arr[:k]
 print(rot)     
+
+#Check duplicates
+arr = [1,2,3,4,5,3]
+if len(arr) != len(set(arr)):
+     print("duplicate is exist")
+else:
+     print("duplicate is not exist")
