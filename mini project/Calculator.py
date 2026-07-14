@@ -16,4 +16,9 @@ def Division(a, b):
      else:
           return "Error! Division by Zero"
           
-          
+#Take user input
+print("Select operation: 1.Add 2.Subtraction 3.Multiplication 4.Division")
+choice = input("Enter choice (1/2/3/4):")
+
+num1 = int(input("Enter First number :"))
+num2 = int(input("Enter Second number :"))          
