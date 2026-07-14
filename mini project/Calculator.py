@@ -60,4 +60,11 @@ def show_task():
      else:
           for i, task in enumerate(tasks):
                print(f"{i}, {task}")
+add_task("study Python")  
+add_task("complete DBMS assignment")
+show_task()
+
+edit_task(0, "Study python oop")
+delet_task(1)
+show_task()
           
