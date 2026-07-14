@@ -25,5 +25,4 @@ python Basic/Variable.py
 - This repository is a starting point for learning Python syntax and variable assignment.
 
 #kal se linklist krna hai 
-#kiyu ki late ho gya hai 
 
