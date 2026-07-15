@@ -17,3 +17,19 @@ score = 0
 
 print("Welcome to the Quiz Game!\n")
 
+for question, data in quiz.items():
+     print(question)
+     for option in data["options"]:
+          print(option)
+          
+     user_answer = input("Enter your answer (A/B/C/D): ").upper()
+     
+     if user_answer == data["answer"]:
+          print("Correct!\n")
+          score += 1
+     else:
+          print(f"Wrong! Correct answer is {data['answer']}]\n")
+          
+print("Quiz Complete!")
+print(f" Your final score is {score} out of {len(quiz)}")
+     
