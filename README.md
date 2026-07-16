@@ -26,3 +26,5 @@ python Basic/Variable.py
 
 # aaj ka kuch nhi ho rh hai 
 
+# kal hum kuch padhege
+
