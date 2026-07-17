@@ -58,3 +58,11 @@ Lists: append O(1), pop(0) O(n), sort O(n log n).
 Sets/Dicts: add/get O(1) average, O(n) worst case.
 
 Strings: slicing O(k), concatenation O(n)."""
+
+"""4. Work on Recursion
+Learn recurrence relations (e.g., T(n) = 2T(n/2) + O(n)).
+
+Example: Merge Sort → O(n log n).
+
+Example: Fibonacci naive recursion → O(2^n)."""
+
