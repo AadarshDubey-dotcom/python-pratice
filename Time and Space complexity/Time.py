@@ -66,3 +66,9 @@ Example: Merge Sort → O(n log n).
 
 Example: Fibonacci naive recursion → O(2^n)."""
 
+"""5. Space Complexity Examples
+Extra arrays → O(n).
+
+Constant variables → O(1).
+
+Recursion stack → O(n) for depth n."""
