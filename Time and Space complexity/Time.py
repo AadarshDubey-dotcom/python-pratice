@@ -13,3 +13,41 @@ O(n) → Linear (e.g., iterating over a list).
 O(log n) → Logarithmic (e.g., binary search).
 
 O(n²) → Quadratic (e.g., nested loops)."""
+
+"""2. Practice with Python Loops
+Single loop → O(n).
+
+Nested loop → O(n²).
+
+Loop halving input (while n > 1: n//=2) → O(log n).
+
+python
+# O(n) example
+def linear_search(arr, target):
+    for x in arr:
+        if x == target:
+            return True
+    return False"""
+
+# O(n²) example
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+# O(log n) example
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return True
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return False
