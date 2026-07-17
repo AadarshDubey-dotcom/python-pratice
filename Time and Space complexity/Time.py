@@ -51,3 +51,10 @@ def binary_search(arr, target):
         else:
             high = mid - 1
     return False
+
+"""3. Analyze Built‑in Operations
+Lists: append O(1), pop(0) O(n), sort O(n log n).
+
+Sets/Dicts: add/get O(1) average, O(n) worst case.
+
+Strings: slicing O(k), concatenation O(n)."""
