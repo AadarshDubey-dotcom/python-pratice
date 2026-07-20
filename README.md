@@ -26,5 +26,3 @@ python Basic/Variable.py
 
 
 
-# aaj raat se pafhuga python
-# aur exam ki bhi tayari bhi krna hai 
