@@ -23,3 +23,5 @@ if word == rev:
      print("this is parlidrome.")
 else:
      print("this is not parlidrome.")
+
+#Two-Pointer Approach     
