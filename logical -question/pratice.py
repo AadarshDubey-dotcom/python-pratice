@@ -12,3 +12,6 @@ def check_number(a,b):
           
 print(check_number(544,3))
 print(check_number(44,65))
+
+#Question: Write a program to check whether a given string is a palindrome or not.
+
