@@ -25,3 +25,21 @@ else:
      print("this is not parlidrome.")
 
 #Two-Pointer Approach     
+
+word = input("enter the word :")
+
+left = 0
+right = len(word) - 1
+is_palidrome = True
+
+while left < right:
+     if word[left] != word[right]:
+          is_palidrome = False
+          break
+     left += 1
+     right -= 1
+     
+if is_palidrome:
+     print("this is palidrome.")
+else:
+     print("this is not palidrome.")
