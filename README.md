@@ -25,4 +25,5 @@ python Basic/Variable.py
 - This repository is a starting point for learning Python syntax and variable assignment.
 
 # ajj padne ka man nhi hai 
+# kal padhu aaj ka bhi 
 
