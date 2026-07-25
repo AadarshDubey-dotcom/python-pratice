@@ -46,3 +46,16 @@ else:
 
 #Armstrong number Ek number input lo aur check karo ki wo Armstrong number hai ya nahi (sum of cubes of digits = number).     
 
+num = int(input("Enter the num :"))
+cube_of_sum = 0
+temp = num
+
+while temp > 0:
+     digit = temp % 10
+     cube_of_sum += digit ** 3
+     temp //= 10
+     
+if num == cube_of_sum:
+     print("this is armstrong number.")
+else:
+     print("this is not amrstrong number.")     
