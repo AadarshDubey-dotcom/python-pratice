@@ -43,3 +43,6 @@ if is_palidrome:
      print("this is palidrome.")
 else:
      print("this is not palidrome.")
+
+#Armstrong number Ek number input lo aur check karo ki wo Armstrong number hai ya nahi (sum of cubes of digits = number).     
+
