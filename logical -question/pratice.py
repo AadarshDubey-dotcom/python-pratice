@@ -59,3 +59,13 @@ if num == cube_of_sum:
      print("this is armstrong number.")
 else:
      print("this is not amrstrong number.")     
+
+"""Pattern printing  
+Example:
+
+Code
+*
+* *
+* * *
+* * * * iska logic"""
+
