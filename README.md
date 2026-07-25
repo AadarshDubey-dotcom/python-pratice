@@ -24,6 +24,3 @@ python Basic/Variable.py
 - `Variable.py` uses comments to explain Python and variable basics.
 - This repository is a starting point for learning Python syntax and variable assignment.
 
-# ajj padne ka man nhi hai 
-# kal padhu aaj ka bhi 
-
