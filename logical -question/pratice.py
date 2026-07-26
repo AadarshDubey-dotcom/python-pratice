@@ -76,4 +76,26 @@ for i in range(1, n+1):
           print("*", end=" ")
      print()     
 
-# Guess the number game       
+# Guess the number game     
+import random
+
+print("Guess the Number Game 🎮")
+print("Computer ne ek number choose kiya hai (1 se 100). Tumhe guess karna hai!")
+    
+def guess_num():
+     num = random.randint(1,100)
+     attempt = 0
+     guess = None
+
+     while num != guess:
+          guess = int(input("enter the num :"))
+          attempt += 1
+     
+          if guess == num:
+               print("you win ")
+          elif guess < num:
+               print("to low try again")
+          else:
+               print("to high try again.")
+
+guess_num()  
