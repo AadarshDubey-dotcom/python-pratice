@@ -103,3 +103,15 @@ guess_num()
 """Simple calculator  
 User se 2 numbers aur ek operator (+, -, *, /) input lo aur result print karo. give me logic for building ;logic"""
 
+num1 = int(input("Enter the First number :"))
+num2 = int(input("Enter the Second number :"))
+operator = input("Enter the Opertor +, -, *, /")
+
+if operator == "+":
+     print(num1 + num2)
+elif operator == "-":
+     print(num1 - num2)
+elif operator == "*":
+     print(num1 * num2)
+else:
+     print(num1 / num1)
