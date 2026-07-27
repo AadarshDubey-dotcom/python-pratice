@@ -98,4 +98,8 @@ def guess_num():
           else:
                print("to high try again.")
 
-guess_num()  
+guess_num()
+
+"""Simple calculator  
+User se 2 numbers aur ek operator (+, -, *, /) input lo aur result print karo. give me logic for building ;logic"""
+
