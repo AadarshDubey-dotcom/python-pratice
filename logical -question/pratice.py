@@ -6,7 +6,7 @@ return their product; otherwise, return their sum."""
 def check_number(a,b):
      product = a * b
      if product <= 1000:
-          return Product
+          return product
      else:
           return a+b
           
@@ -116,4 +116,3 @@ elif operator == "*":
 else:
      print(num1 / num1)
 
-     
