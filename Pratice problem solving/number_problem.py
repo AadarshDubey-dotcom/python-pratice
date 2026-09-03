@@ -58,3 +58,34 @@ else:
             break
     else:
         print("Prime number")
+
+"""Step‑by‑Step Logic
+Input number
+
+User ek number enter karta hai → n.
+
+Check <= 1
+
+Agar n <= 1 hai to directly "Not a prime number" print hota hai.
+
+Kyunki prime numbers hamesha greater than 1 hote hain.
+
+Loop from 2 to n-1
+
+For loop i ko 2 se lekar n-1 tak chalata hai.
+
+Har i ke liye check hota hai ki n % i == 0 hai ya nahi.
+
+Divisibility check
+
+Agar koi i number ko divide kar deta hai (remainder 0), to wo prime nahi hai.
+
+Print "Not a prime number" aur loop break ho jata hai.
+
+Else with for loop
+
+Python me for loop ke saath else ka matlab hai:
+
+Agar loop normally complete ho gaya (break nahi hua), tabhi else chalega.
+
+Matlab agar koi divisor nahi mila, to "Prime number" print hoga."""
