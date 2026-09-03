@@ -46,3 +46,10 @@ def reverse(string):
      return rev  
      
 print(reverse(string))
+
+#print sum of digits of number
+def sum(a,b):
+     s = a + b 
+     return s 
+     
+print(sum(2,4))     
