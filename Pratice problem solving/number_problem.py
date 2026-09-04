@@ -89,3 +89,5 @@ Python me for loop ke saath else ka matlab hai:
 Agar loop normally complete ho gaya (break nahi hua), tabhi else chalega.
 
 Matlab agar koi divisor nahi mila, to "Prime number" print hoga."""
+
+# sum of digit
