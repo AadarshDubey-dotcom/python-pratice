@@ -101,3 +101,40 @@ def sum_of_digit(n):
      return total     
      
 print(sum_of_digit(n))     
+
+"""Workflow of Sum of Digits
+Start with a number  
+Example: n = 1234
+
+Initialize sum = 0  
+Ye variable har digit ka total store karega.
+
+Extract last digit
+
+Formula: digit = n % 10
+
+For 1234 → digit = 4
+
+Add digit to sum
+
+sum = sum + digit
+
+Now sum = 0 + 4 = 4
+
+Remove last digit from number
+
+Formula: n = n // 10
+
+For 1234 → n = 123
+
+Repeat steps 3–5
+
+Next digit = 3 → sum = 7
+
+Next digit = 2 → sum = 9
+
+Next digit = 1 → sum = 10
+
+Stop when number = 0
+
+Loop ends. Final sum = 10"""
