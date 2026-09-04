@@ -91,3 +91,13 @@ Agar loop normally complete ho gaya (break nahi hua), tabhi else chalega.
 Matlab agar koi divisor nahi mila, to "Prime number" print hoga."""
 
 # sum of digit
+n = int(input("enter the number :"))
+def sum_of_digit(n):
+     total = 0
+     while n>0:
+          digit = n % 10
+          total = total + digit
+          n //= 10
+     return total     
+     
+print(sum_of_digit(n))     
