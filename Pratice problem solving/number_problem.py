@@ -207,3 +207,16 @@ Agar sum_of_cubes == num → Armstrong number ✔
 Otherwise → Not Armstrong ❌."""    
 
 #Palindrome number  
+num = int(input("enter the number :"))
+temp = num
+revers = 0
+
+while temp > 0:
+     digit = temp % 10
+     revers = revers * 10 + digit
+     temp //= 10
+     
+if num == revers:
+     print(num, " this is palidrom.")
+else:
+     print(num, "this is not palidrom.")
