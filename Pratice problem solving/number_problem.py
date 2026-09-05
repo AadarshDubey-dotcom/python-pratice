@@ -220,3 +220,20 @@ if num == revers:
      print(num, " this is palidrom.")
 else:
      print(num, "this is not palidrom.")
+
+"""Workflow (Logic)
+Input number lo (e.g., 121).
+
+Original number store karo (temp = num).
+
+Reverse nikalna:
+
+Digit = num % 10 (last digit).
+
+Reverse = reverse * 10 + digit.
+
+Number ko chhota karo → num //= 10.
+
+Repeat until num = 0.
+
+Compare: Agar reverse == original number → Palindrome ✔ else ❌."""     
