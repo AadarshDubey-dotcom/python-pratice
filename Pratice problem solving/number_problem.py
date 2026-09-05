@@ -138,3 +138,5 @@ Next digit = 1 → sum = 10
 Stop when number = 0
 
 Loop ends. Final sum = 10"""
+
+#Armstrong number  
