@@ -204,4 +204,6 @@ Final check
 
 Agar sum_of_cubes == num → Armstrong number ✔
 
-Otherwise → Not Armstrong ❌."""     
+Otherwise → Not Armstrong ❌."""    
+
+#Palindrome number  
