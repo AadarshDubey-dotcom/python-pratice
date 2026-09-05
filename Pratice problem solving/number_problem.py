@@ -140,3 +140,16 @@ Stop when number = 0
 Loop ends. Final sum = 10"""
 
 #Armstrong number  
+num = int(input("enter the number :"))
+sum_of_digit = 0
+temp = num
+
+while temp > 0:
+     digit = temp % 10
+     sum_of_digit += digit ** 3
+     temp //= 10
+     
+if sum_of_digit == temp:
+     print(num, "This number is Armstrong.")
+else:
+     print(num, "This number is not Armstrong.")
