@@ -153,3 +153,55 @@ if sum_of_digit == temp:
      print(num, "This number is Armstrong.")
 else:
      print(num, "This number is not Armstrong.")
+
+"""Workflow Explanation
+Input number
+
+User ek number enter karta hai.
+
+Example: num = 153.
+
+Initialize variables
+
+sum_of_cubes = 0 → cubes ka total store karega.
+
+temp = num → original number ko copy karte hain taaki loop me use ho.
+
+Loop through digits
+
+Jab tak temp > 0 hai, har digit nikalte rahenge.
+
+Extract last digit
+
+digit = temp % 10 → last digit milta hai.
+
+Example: 153 → digit = 3.
+
+Cube and add
+
+sum_of_cubes += digit ** 3 → digit ka cube nikal ke sum me add karte hain.
+
+Example: 
+3
+3
+=
+27
+.
+
+Remove last digit
+
+temp //= 10 → last digit remove ho jata hai.
+
+Example: 153 → 15.
+
+Repeat steps 4–6
+
+Digits: 3 → 5 → 1
+
+Cubes: 27 + 125 + 1 = 153.
+
+Final check
+
+Agar sum_of_cubes == num → Armstrong number ✔
+
+Otherwise → Not Armstrong ❌."""     
