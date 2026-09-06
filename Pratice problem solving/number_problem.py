@@ -310,3 +310,45 @@ def LCM(a,b):
      return abs(a*b) // math.gcd(a,b)
      
 print(LCM(4,5))     
+"""Step‑by‑Step Logic
+List multiples of each number.
+
+4 → 4, 8, 12, 16, …
+
+6 → 6, 12, 18, …
+
+Find common multiples → 12, 24, …
+
+Pick smallest → 12.
+👉 So LCM(4,6) = 12.
+
+📌 Formula Method
+LCM aur GCD (Greatest Common Divisor) ka relation hota hai:
+
+𝐿
+𝐶
+𝑀
+(
+𝑎
+,
+𝑏
+)
+=
+𝑎
+×
+𝑏
+𝐺
+𝐶
+𝐷
+(
+𝑎
+,
+𝑏
+)
+Example:
+
+a = 12, b = 15
+
+GCD(12,15) = 3
+
+LCM = (12 × 15) ÷ 3 = 60"""
