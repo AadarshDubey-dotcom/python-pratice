@@ -237,3 +237,5 @@ Number ko chhota karo → num //= 10.
 Repeat until num = 0.
 
 Compare: Agar reverse == original number → Palindrome ✔ else ❌."""     
+
+#Factorial of a number  
