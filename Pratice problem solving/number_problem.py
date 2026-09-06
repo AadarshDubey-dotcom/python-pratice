@@ -261,3 +261,5 @@ Lekin 1 se multiply karne par value kabhi change nahi hoti.
 So result hamesha 1 hi rahega.
 
 Return result → loop khatam hone ke baad result = 1."""
+
+# Fibonacci series
