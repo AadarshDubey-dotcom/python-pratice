@@ -245,4 +245,19 @@ def factorial(n):
           result *= i
      return result
 
-print(factorial(5))     
+print(factorial(5))   
+
+"""📌 Step‑by‑Step Logic
+Initialize → result = 1
+
+Loop → for i in range(1, n+1) → yaha loop 1 se 5 tak chalega (i = 1,2,3,4,5).
+
+Inside loop → result *= 1
+
+Matlab har step pe result = result × 1.
+
+Lekin 1 se multiply karne par value kabhi change nahi hoti.
+
+So result hamesha 1 hi rahega.
+
+Return result → loop khatam hone ke baad result = 1."""
