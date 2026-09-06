@@ -283,3 +283,10 @@ a = b
 b = a + b (old values ke basis pe).
 
 Repeat until n terms → series ready ho jaati hai."""
+#Greatest Common Divisor (GCD)  
+import math 
+
+def gcd(a,b):
+    return math.gcd(a,b)
+     
+print(gcd(12,18))     
