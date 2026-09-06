@@ -289,4 +289,16 @@ import math
 def gcd(a,b):
     return math.gcd(a,b)
      
-print(gcd(12,18))     
+print(gcd(12,18))    
+
+"""📌 Step‑by‑Step Logic
+List divisors of each number.
+
+12 → 1, 2, 3, 4, 6, 12
+
+18 → 1, 2, 3, 6, 9, 18
+
+Find common divisors → 1, 2, 3, 6
+
+Pick greatest → 6
+👉 So GCD(12,18) = 6."""
