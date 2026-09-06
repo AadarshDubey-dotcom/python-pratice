@@ -269,4 +269,17 @@ def fabicon(n):
           print(a, end=" ")
           a,b = b,a+b 
      
-print(fabicon(5))     
+print(fabicon(5))   
+
+"""📌 Workflow (Logic)
+Initialize first two terms → a = 0, b = 1.
+
+Loop n times → har step pe current number print karo.
+
+Update values →
+
+a = b
+
+b = a + b (old values ke basis pe).
+
+Repeat until n terms → series ready ho jaati hai."""
