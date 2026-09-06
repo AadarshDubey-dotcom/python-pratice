@@ -263,3 +263,10 @@ So result hamesha 1 hi rahega.
 Return result → loop khatam hone ke baad result = 1."""
 
 # Fibonacci series
+def fabicon(n):
+     a,b = 0,1
+     for i in range(n):
+          print(a, end=" ")
+          a,b = b,a+b 
+     
+print(fabicon(5))     
