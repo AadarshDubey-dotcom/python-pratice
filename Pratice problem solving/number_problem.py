@@ -302,3 +302,11 @@ Find common divisors → 1, 2, 3, 6
 
 Pick greatest → 6
 👉 So GCD(12,18) = 6."""
+
+#Greatest Common Divisor (GCD)  
+import math 
+
+def LCM(a,b):
+     return abs(a*b) // math.gcd(a,b)
+     
+print(LCM(4,5))     
