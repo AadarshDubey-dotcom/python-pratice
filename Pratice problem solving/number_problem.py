@@ -239,3 +239,10 @@ Repeat until num = 0.
 Compare: Agar reverse == original number → Palindrome ✔ else ❌."""     
 
 #Factorial of a number  
+def factorial(n):
+     result = 1
+     for i in range(1, n+1):
+          result *= i
+     return result
+
+print(factorial(5))     
