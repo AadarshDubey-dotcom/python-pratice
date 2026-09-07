@@ -352,3 +352,5 @@ a = 12, b = 15
 GCD(12,15) = 3
 
 LCM = (12 × 15) ÷ 3 = 60"""
+
+# Count digits in a number
