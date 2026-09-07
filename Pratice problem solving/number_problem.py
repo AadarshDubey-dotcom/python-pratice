@@ -363,3 +363,16 @@ def count_digit(n):
     return count
 
 print(count_digit(234))  # Output: 3
+
+"""📌 Logic of Counting Digits
+Input number lo (example: 12345).
+
+Divide by 10 → har step pe last digit remove ho jaata hai.
+
+12345 → 1234 → 123 → 12 → 1 → 0
+
+Count steps → jitni baar divide karte ho, utne digits hote hain.
+
+Stop when number = 0.
+
+👉 Example: 12345 → 5 steps → 5 digits."""
