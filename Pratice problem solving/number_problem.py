@@ -354,3 +354,12 @@ GCD(12,15) = 3
 LCM = (12 × 15) ÷ 3 = 60"""
 
 # Count digits in a number
+def count_digit(n):
+    count = 0
+    while n > 0:
+        digit = n % 10   # last digit
+        count += 1       # count increase
+        n //= 10         # number chhota karo
+    return count
+
+print(count_digit(234))  # Output: 3
