@@ -8,3 +8,11 @@ def reverse_word(word):
      return rev     
      
 print(reverse_word(word))     
+"""Logic of Reverse String
+Input string lo (example: "hello").
+
+Ek empty string banao jo reversed result store kare.
+
+Har character ko loop me ulta order me add karo.
+
+Final result return karo."""
