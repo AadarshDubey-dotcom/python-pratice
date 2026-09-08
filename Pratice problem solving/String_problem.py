@@ -42,3 +42,13 @@ Agar original == reversed → Palindrome.
 Agar alag hai → Not Palindrome."""
 
 # count vowels in string
+word = input("enter the str :")
+
+def count_vowel(word):
+     vowel = "aeiouAEIOU"
+     count = 0
+     for ch in word:
+          if ch in vowel:
+               count += 1
+     return count
+print(count_vowel(word))          
