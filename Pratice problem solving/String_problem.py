@@ -51,4 +51,14 @@ def count_vowel(word):
           if ch in vowel:
                count += 1
      return count
-print(count_vowel(word))          
+print(count_vowel(word))
+"""📌 Logic of Vowel Count
+Input string lo.
+
+Ek set banao vowels ka: a, e, i, o, u (lowercase + uppercase).
+
+Har character ko loop me check karo.
+
+Agar character vowel hai → count badhao.
+
+Final count return karo."""
