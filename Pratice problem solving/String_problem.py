@@ -16,3 +16,17 @@ Ek empty string banao jo reversed result store kare.
 Har character ko loop me ulta order me add karo.
 
 Final result return karo."""
+
+#check palindrome
+word = input("enter the str :")
+
+def palindrome_check(word):
+     temp = ""
+     for ch in word:
+          temp = ch + temp     
+     if word == temp:
+          print("this is palindrome.")
+     else:
+          print("this is not palindrome")
+     
+print(palindrome_check(word))     
