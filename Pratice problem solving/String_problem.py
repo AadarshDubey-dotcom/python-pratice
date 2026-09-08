@@ -30,3 +30,13 @@ def palindrome_check(word):
           print("this is not palindrome")
      
 print(palindrome_check(word))     
+"""📌 Logic of Palindrome Check
+Input lo (string ya number).
+
+Uska reverse banao.
+
+Compare karo:
+
+Agar original == reversed → Palindrome.
+
+Agar alag hai → Not Palindrome."""
