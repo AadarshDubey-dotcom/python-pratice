@@ -40,3 +40,5 @@ Compare karo:
 Agar original == reversed → Palindrome.
 
 Agar alag hai → Not Palindrome."""
+
+# count vowels in string
