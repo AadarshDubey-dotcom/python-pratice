@@ -64,3 +64,15 @@ Agar character vowel hai → count badhao.
 Final count return karo."""
 
 # Longest word in sentence  
+Sentence = input("enter the Sentence :")
+
+def Longest_sentence(Sentence):
+     words = Sentence.split()
+     longest = ""
+     for w in words:
+          if len(w) > len(longest):
+               longest = w 
+     return longest
+          
+print(Longest_sentence(Sentence))          
+          
