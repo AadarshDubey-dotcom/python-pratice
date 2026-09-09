@@ -86,4 +86,12 @@ Har word ki length check karo.
 Jo word sabse bada hoga usko store karo.
 
 Final longest word return karo."""
-          
+
+#remove duplicate
+#📌 Method 1: Using set()
+lis = ["harsh", "adarsh","harsh", "pandit"]
+
+def remove_duplicate(lis):
+     return list(set(lis))
+
+print(remove_duplicate(lis))     
