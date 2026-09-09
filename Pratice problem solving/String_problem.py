@@ -95,3 +95,14 @@ def remove_duplicate(lis):
      return list(set(lis))
 
 print(remove_duplicate(lis))     
+
+#Method 2: Maintain Order
+lis = ["harsh", "adarsh","harsh", "pandit"]
+
+def remove_duplicate(lis):
+     result = []
+     for item in lis:
+          if item not in result:
+               result.append(item)
+     return result
+print(remove_duplicate(lis))     
