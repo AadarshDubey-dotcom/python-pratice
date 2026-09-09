@@ -74,5 +74,16 @@ def Longest_sentence(Sentence):
                longest = w 
      return longest
           
-print(Longest_sentence(Sentence))          
+print(Longest_sentence(Sentence))        
+
+"""📌 Logic of Longest Word
+Input sentence lo.
+
+Sentence ko split karke words ki list banao.
+
+Har word ki length check karo.
+
+Jo word sabse bada hoga usko store karo.
+
+Final longest word return karo."""
           
