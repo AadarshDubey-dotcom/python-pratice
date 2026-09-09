@@ -62,3 +62,5 @@ Har character ko loop me check karo.
 Agar character vowel hai → count badhao.
 
 Final count return karo."""
+
+# Longest word in sentence  
