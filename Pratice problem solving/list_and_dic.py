@@ -10,3 +10,9 @@ rev = []
 for n in lis:
      rev = [n] + rev 
 print(rev)     
+
+#Find max and min
+lis = [1,2,3,4]
+
+print("Max :", max(lis))
+print("Min :", min(lis))
