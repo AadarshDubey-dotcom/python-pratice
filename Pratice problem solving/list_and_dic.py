@@ -31,3 +31,12 @@ for n in lis:
           min_num = n 
 print("Max :", max_num)          
 print("Min :", min_num)
+#Even numbers filter  
+lis = [1,2,3,4,5,6]
+new = []
+
+for n in lis:
+     if n % 2 == 0:
+          new.append(n)
+
+print(new)          
