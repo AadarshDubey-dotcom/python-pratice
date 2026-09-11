@@ -40,3 +40,11 @@ for n in lis:
           new.append(n)
 
 print(new)          
+
+#Second largest element
+lis = [34,21,65,32,34]
+unique_list = list(set(lis))
+unique_list.sort()
+second_large = unique_list[-2]
+
+print(second_large)
