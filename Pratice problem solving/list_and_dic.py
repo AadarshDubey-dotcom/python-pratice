@@ -60,3 +60,15 @@ for w in n:
           dic[w] = 1
      
 print(dic)
+"""Logic Flow
+Input text → ek string lo (sentence/paragraph).
+
+Split words → split() function se words ki list banao.
+
+Loop through words → har word ko check karo.
+
+Dictionary store → dictionary me word ko key aur count ko value rakho.
+
+Update count → agar word pehle se hai to +1 karo, nahi hai to 1 se start karo.
+
+Print result → final dictionary print karo."""
