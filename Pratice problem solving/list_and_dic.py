@@ -48,3 +48,15 @@ unique_list.sort()
 second_large = unique_list[-2]
 
 print(second_large)
+
+#Word frequency count
+word =  "hello world hello python world"
+n = word.split()
+dic = {}
+for w in n:
+     if w in dic:
+          dic[w] += 1
+     else:
+          dic[w] = 1
+     
+print(dic)
