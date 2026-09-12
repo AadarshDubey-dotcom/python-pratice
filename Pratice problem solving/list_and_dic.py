@@ -79,3 +79,11 @@ value = [1,2,3]
 
 my_dict = dict(zip(key, value))
 print(my_dict)
+"""Logic Flow
+Keys list → pehli list me dictionary ke keys honge.
+
+Values list → dusri list me dictionary ke values honge.
+
+Zip function → dono lists ko pair me combine karega.
+
+dict constructor → pairs ko dictionary me convert karega."""
