@@ -72,3 +72,10 @@ Dictionary store → dictionary me word ko key aur count ko value rakho.
 Update count → agar word pehle se hai to +1 karo, nahi hai to 1 se start karo.
 
 Print result → final dictionary print karo."""
+
+#Convert two lists into dictionary
+key = ['a','b','c']
+value = [1,2,3]
+
+my_dict = dict(zip(key, value))
+print(my_dict)
