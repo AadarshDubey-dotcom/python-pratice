@@ -52,3 +52,20 @@ if result != -1:
      print(f"Element {search_number} found at index {result}")
 else:
      print(f"Element {search_number} not found")
+
+"""Logic Flow
+Sorted list → Binary search sirf sorted list pe kaam karta hai.
+
+Initialize pointers → low = 0, high = len(list)-1.
+
+Find mid → mid = (low + high) // 2.
+
+Compare element →
+
+Agar arr[mid] == target → element found.
+
+Agar arr[mid] < target → right half search karo (low = mid+1).
+
+Agar arr[mid] > target → left half search karo (high = mid-1).
+
+Repeat until found → loop chalta rahega jab tak element mil jaye ya low > high ho jaye."""
