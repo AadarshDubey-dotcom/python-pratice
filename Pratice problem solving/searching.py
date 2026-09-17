@@ -85,5 +85,15 @@ Input word → jis word ko search karna hai wo lo.
 
 Check condition → if word in string: use karo.
 
-Return result → print karo ki word exist karta hai ya nahi."""     
+Return result → print karo ki word exist karta hai ya nahi."""
+
+#Find Maximum Element  
+number  = [10,25,3,88,45]
+
+largest = number[0] 
+
+for n in number:
+     if n > largest:
+          largest = n
+print("Largest element :",largest)          
      
