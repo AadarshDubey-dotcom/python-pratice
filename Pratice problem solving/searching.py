@@ -107,3 +107,26 @@ Loop through list → har element ko check karo.
 Compare values → agar current element largest se bada hai → update largest.
 
 Return result → loop khatam hone ke baad largest print karo."""     
+
+#Search in Matrix  
+def search_in_matrix(matrix, target):
+     for i in range(len(matrix)):
+          for j in range(len(matrix[i])):
+               if matrix[i][j] == target:
+                    return (i,j)
+     return None
+
+matrix = [
+     [1,2,3],
+     [4,5,6],
+     [7,8,9]
+]
+search_element = 5
+
+result = search_in_matrix(matrix, search_element)
+
+if result:
+     print(f"Element {search_element} find at position {result}")
+else:
+     print(f"Element {search_element} not found")
+     
