@@ -78,4 +78,12 @@ if word in text:
      print(word,"word found in text")
 else:
      print("not found.")
+"""Logic Flow
+Input string → user se ek string lo.
+
+Input word → jis word ko search karna hai wo lo.
+
+Check condition → if word in string: use karo.
+
+Return result → print karo ki word exist karta hai ya nahi."""     
      
