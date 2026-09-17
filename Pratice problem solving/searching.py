@@ -69,3 +69,13 @@ Agar arr[mid] < target → right half search karo (low = mid+1).
 Agar arr[mid] > target → left half search karo (high = mid-1).
 
 Repeat until found → loop chalta rahega jab tak element mil jaye ya low > high ho jaye."""
+
+#Search in String  
+text = input("enter the string :")
+word = input("enter the word :")
+
+if word in text:
+     print(word,"word found in text")
+else:
+     print("not found.")
+     
