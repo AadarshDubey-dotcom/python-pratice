@@ -24,4 +24,31 @@ Loop through list → har element ko check karo.
 
 Condition check → agar element target ke equal hai → found.
 
-Return result → index ya message print karo."""     
+Return result → index ya message print karo."""
+
+#Binary Search Program
+def Binary_search(arr, target):
+     low = 0 
+     high = len(arr) - 1
+     
+     while low <= high:
+          mid = (low + high) // 2
+          
+          if arr[mid] == target:
+               return mid
+          elif arr[mid] < target:
+               low = mid + 1
+          else:
+               high = mid - 1
+               
+     return -1        
+     
+number = [10,20,30,40,50,60]     
+search_number = 40
+
+result = Binary_search(number, search_number)
+
+if result != -1:
+     print(f"Element {search_number} found at index {result}")
+else:
+     print(f"Element {search_number} not found")
