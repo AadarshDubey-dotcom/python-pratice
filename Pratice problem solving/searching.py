@@ -129,4 +129,14 @@ if result:
      print(f"Element {search_element} find at position {result}")
 else:
      print(f"Element {search_element} not found")
-     
+
+"""Logic Flow
+Input matrix → ek 2D list (list of lists).
+
+Target element → jis element ko search karna hai.
+
+Nested loop → outer loop rows ke liye, inner loop columns ke liye.
+
+Condition check → agar element match kare toh uska position (row, col) return karo.
+
+Return result → agar nahi mila toh message print karo."""     
