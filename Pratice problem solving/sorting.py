@@ -47,3 +47,13 @@ number = [23,43,21,5,6,77]
 result = selection_sort(number)
 
 print("sorted list :", result)
+"""Logic Flow (Selection Sort)
+Input list → ek list jisme numbers hain.
+
+Outer loop → har position ke liye ek pass chalega.
+
+Find minimum → unsorted part me sabse chhota element dhoondo.
+
+Swap with current → us minimum ko current position ke saath swap karo.
+
+Repeat until sorted → jab tak poori list sorted na ho jaaye."""
