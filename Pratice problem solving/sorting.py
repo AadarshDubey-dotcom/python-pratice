@@ -22,3 +22,13 @@ number = [65,23,55,76,43,77,87]
 sorted_list = bubble_sort(number)
 
 print("Sorted List :", sorted_list)
+"""Logic Flow
+Input list → ek list jisme numbers hain.
+
+Outer loop → jitni baar list ke elements hain utni baar repeat hoga.
+
+Inner loop → har adjacent pair compare karega.
+
+Swap elements → agar left element bada hai toh dono ko swap karo.
+
+Repeat until sorted → jab tak list ascending order me na aa jaye."""
