@@ -145,3 +145,11 @@ number = [23,45,6,5,55,28]
 result = quick_sort(number)
 
 print("result :", result)
+"""Logic Flow (Quick Sort)
+Choose pivot → ek element ko pivot select karo (usually first, last, or middle).
+
+Partition list → pivot se chhote elements left side, bade elements right side.
+
+Recursive sort → left aur right sublists ko recursively sort karo.
+
+Combine → sorted left + pivot + sorted right = final sorted list."""
