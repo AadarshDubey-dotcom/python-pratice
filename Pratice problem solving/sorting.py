@@ -123,3 +123,9 @@ number = [12,34,5,6,3,33]
 result = merge_sort(number)
 
 print("Result :", result)
+"""📌 Logic Flow (Merge Sort)
+Divide list → list ko recursively do halves me todte raho jab tak single element na bache.
+
+Conquer → har half ko individually sort karna (recursion se).
+
+Merge → sorted halves ko merge karke final sorted list banani."""
