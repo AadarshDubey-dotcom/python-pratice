@@ -74,3 +74,13 @@ number = [23,43,2,3,44,5]
 result = insertion_sort(number)
 
 print("Result :", result)
+"""📌 Logic Flow (Insertion Sort)
+Input list → ek list jisme numbers hain.
+
+Outer loop → second element se start karke har element ko apni sahi jagah pe insert karna hai.
+
+Key element → current element ko key variable me store karo.
+
+Shift elements → agar left side ke elements key se bade hain toh unhe ek step right shift karo.
+
+Insert key → jab sahi position mil jaaye toh key ko insert karo."""
