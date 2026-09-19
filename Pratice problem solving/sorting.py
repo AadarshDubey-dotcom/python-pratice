@@ -129,3 +129,19 @@ Divide list → list ko recursively do halves me todte raho jab tak single eleme
 Conquer → har half ko individually sort karna (recursion se).
 
 Merge → sorted halves ko merge karke final sorted list banani."""
+
+## Quick Sort
+def quick_sort(arr):
+     if len(arr) <= 1:
+          return arr
+     else:
+          pivot = arr[len(arr) // 2]
+          left = [x for x in arr if x < pivot]
+          mid = [x for x in arr if x == pivot]
+          right = [x for x in arr if x > pivot]
+          return quick_sort(left) + mid + quick_sort(right)
+          
+number = [23,45,6,5,55,28]          
+result = quick_sort(number)
+
+print("result :", result)
