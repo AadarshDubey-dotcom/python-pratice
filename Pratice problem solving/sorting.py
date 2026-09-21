@@ -158,3 +158,8 @@ Combine → sorted left + pivot + sorted right = final sorted list."""
 #Ek program likho jo ek list of strings ko unke length ke basis par ascending order me sort kare.
 
 #Python Program (Using sorted())
+string = ["apple", "kiwi", "banana", "cherry", "fig"]
+
+sorted_string = sorted(string, key=len)
+
+print("sorted by length :", sorted_string)
