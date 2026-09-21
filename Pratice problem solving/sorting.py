@@ -163,3 +163,5 @@ string = ["apple", "kiwi", "banana", "cherry", "fig"]
 sorted_string = sorted(string, key=len)
 
 print("sorted by length :", sorted_string)
+
+#Manual Implementation (Bubble Sort Style)
