@@ -165,3 +165,12 @@ sorted_string = sorted(string, key=len)
 print("sorted by length :", sorted_string)
 
 #Manual Implementation (Bubble Sort Style)
+def bubble_sort(arr):
+     for i in range(len(arr)):
+          for j in range(0, len(arr)-i-1):
+               if len(arr[j]) > len(arr[j+1]):
+                    arr[j], arr[j+1] = arr[j+1], arr[j]
+     return arr
+     
+string = ["apple", "kiwi", "banana","orange", "fig"]
+print("sorting by length :", bubble_sort(string))
