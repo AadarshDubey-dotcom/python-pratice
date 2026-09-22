@@ -25,3 +25,4 @@ python Basic/Variable.py
 - This repository is a starting point for learning Python syntax and variable assignment.
 
 # aaj ka ho gya hai kalse DSA 
+# aaj birthday card ban gya hai 
