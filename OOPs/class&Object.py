@@ -69,3 +69,16 @@ print(mobile1.mobile_info())
 print(mobile2.mobile_info())
 
 #object and class basics
+class Car:
+     def __init__(self, brand, color):
+          self.brand = brand
+          self.color = color
+          
+     def drive(self):
+          print(f"{self.color} {self.brand} car is driving")
+          
+car1 = Car("tesla", 'Red')
+car2 = Car("BMW", "black")
+
+car1.drive()
+car2.drive()
