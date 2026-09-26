@@ -67,3 +67,5 @@ mobile2 = Mobile("Apple", "16 MAX", 56000)
 
 print(mobile1.mobile_info())
 print(mobile2.mobile_info())
+
+#object and class basics
