@@ -26,4 +26,16 @@ q.enqueue(30)
 
 print(q.dequeue())
 print(q.dequeue())
+"""Flow Samajho
+Enqueue(10) → [10]
 
+Enqueue(20) → [10, 20]
+
+Enqueue(30) → [10, 20, 30]
+
+Dequeue() → tumhare code me 30 niklega (last element)
+
+Dequeue() → phir 20 niklega
+
+👉 Matlab tumhari current logic = LIFO  
+👉 Correct FIFO logic = pop(0) use karo"""
