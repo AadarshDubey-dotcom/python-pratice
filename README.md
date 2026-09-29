@@ -26,4 +26,3 @@ python Basic/Variable.py
 
 # aaj ka ho gya hai kalse DSA 
 # aaj birthday card ban gya hai 
-# kal backend ka kuch na kuch padna padega mujhe 
