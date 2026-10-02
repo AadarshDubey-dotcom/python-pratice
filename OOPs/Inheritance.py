@@ -43,6 +43,34 @@ print(s.property())
 print(s.House())
 print(s.Car())
 
+class Person:
+     def __init__(self, name):
+          self.name = name
+          
+     def show_name(self):
+          print(f"Name: {self.name}")
+     
+class Student(Person):
+     def __init__(self, name, roll_no):
+          super().__init__(name)
+          self.roll_no = roll_no
+          
+     def show_roll(self):
+          print(f"roll_no : {self.roll_no}")
+          
+class Exam(Student):
+     def __init__(self, name, roll_no, marks):
+          super().__init__(name, roll_no)
+          self.marks = marks
+          
+     def show_marks(self):
+          print(f"{self.name} (Roll {self.roll_no}) scored {self.marks}")
+          
+obj = Exam('Adarsh', 101, 78)          
+obj.show_name()
+obj.show_roll()
+obj.show_marks()
+          
 #multiple inheritance in python
 class Mom:
      def skill(self):
