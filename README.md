@@ -25,4 +25,3 @@ python Basic/Variable.py
 - This repository is a starting point for learning Python syntax and variable assignment.
 
 
-

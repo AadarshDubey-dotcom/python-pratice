@@ -13,6 +13,18 @@ print(s2.speak())
 s1 = Dog()
 print(s1.speak())
 
+class Parent:
+     def show(self):
+          print("this is parent class")
+          
+class child(Parent):
+     def display(self):
+          print("this is child class")
+          
+obj = child()          
+obj.show()
+obj.display()
+
 #Multilevel Inheritance in python
 class Grandfather:
      def property(self):
