@@ -151,7 +151,16 @@ class LoanAccount(BankAcount):
      def pay_emi(self, emi):
           self.loan_amount -= emi
           print(f"emi paid: {emi}, Reaming loan: {self.loan_amount}")
-                            
+
+saving = SavingAccount("khkjhdskj", 1000)
+saving.deposit(500)
+saving.add_interest()
+
+current = CurrentAccount("ggjgjg", 200)
+current.withdraw(1000)
+
+loan = LoanAccount("IUS", 0, 50000)
+loan.pay_emi(5000)
 
 #Hybrid Inheritance in python
 class A:
