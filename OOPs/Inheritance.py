@@ -120,7 +120,16 @@ class BankAcount:
                print(f"withdraw {amount}, Reaming amount: {self.balance}")
           else:
                print("Insufficient fund")
-               
+class SavingAccount(BankAcount):
+     def __init__(self, account_number, balance=0, interest_rate=5):
+          super().__init__(account_number, balance)
+          self.interest_rate = interest_rate
+          
+     def add_interest(self):
+          interest = self.balance * self.interest_rate /100
+          self.balance += interest
+          print(f"interest added: {interest}, New Balance: {self.balance}")
+                     
 
 #Hybrid Inheritance in python
 class A:
