@@ -105,6 +105,23 @@ print(c.speak())
 d = Dog()
 print(d.speak())
 
+class BankAcount:
+     def __init__(self, account_number, balance=0):
+          self.account_number = account_number
+          self.balance = balance
+          
+     def deposit(self, amount):
+          self.balance += amount
+          print(f"Deposit {amount}, New Balance: {self.balance}")
+     
+     def withdraw(self, amount):
+          if self.balance >= amount:
+               self.balance -= amount
+               print(f"withdraw {amount}, Reaming amount: {self.balance}")
+          else:
+               print("Insufficient fund")
+               
+
 #Hybrid Inheritance in python
 class A:
      def methodA(self):
