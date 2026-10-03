@@ -142,7 +142,16 @@ class CurrentAccount(BankAcount):
                print(f"withdraw {amount}, Reaming balance: {self.balance}")
           else:
                print("overdraft limit exceeded")
-                   
+
+class LoanAccount(BankAcount):
+     def __init__(self, account_number, balance=0, loan_amount=0):
+          super().__init__(account_number, balance)
+          self.loan_amount = loan_amount
+          
+     def pay_emi(self, emi):
+          self.loan_amount -= emi
+          print(f"emi paid: {emi}, Reaming loan: {self.loan_amount}")
+                            
 
 #Hybrid Inheritance in python
 class A:
