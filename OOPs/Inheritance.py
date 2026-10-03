@@ -120,6 +120,7 @@ class BankAcount:
                print(f"withdraw {amount}, Reaming amount: {self.balance}")
           else:
                print("Insufficient fund")
+
 class SavingAccount(BankAcount):
      def __init__(self, account_number, balance=0, interest_rate=5):
           super().__init__(account_number, balance)
@@ -129,7 +130,19 @@ class SavingAccount(BankAcount):
           interest = self.balance * self.interest_rate /100
           self.balance += interest
           print(f"interest added: {interest}, New Balance: {self.balance}")
-                     
+
+class CurrentAccount(BankAcount):
+     def __init__(self, account_number, balance=0, overdraf_limit=1000):
+          super().__init__(account_number, balance)
+          self.overdraf_limit = overdraf_limit
+          
+     def withdraw(self, amount):
+          if self.balance + self.overdraf_limit >= amount:
+               self.balance -= amount
+               print(f"withdraw {amount}, Reaming balance: {self.balance}")
+          else:
+               print("overdraft limit exceeded")
+                   
 
 #Hybrid Inheritance in python
 class A:
