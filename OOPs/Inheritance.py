@@ -184,3 +184,12 @@ print(s.methodA())
 print(s.methodB())
 print(s.methodC())
 print(s.methodD())
+
+
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print("Name:", self.name)
