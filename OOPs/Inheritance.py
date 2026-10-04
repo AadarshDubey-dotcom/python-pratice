@@ -216,4 +216,12 @@ class Monitor(Student, Teacher):
         self.subject = subject
 
     def show(self):
-        print(f"Name: {self.name}, Roll_no: {self.roll_no}, Subject: {self.subject}")                
+        print(f"Name: {self.name}, Roll_no: {self.roll_no}, Subject: {self.subject}")  
+
+s = Student("Adarsh", 1001)
+t = Teacher("Priya", "Math")
+m = Monitor("Komal", 1002, "English")
+
+s.show()
+t.show()
+m.show()                      
