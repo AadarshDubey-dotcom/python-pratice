@@ -208,4 +208,12 @@ class Teacher(Person):
         self.subject = subject
 
     def show(self):
-        print(f"Name: {self.name}, Subject: {self.subject}")               
+        print(f"Name: {self.name}, Subject: {self.subject}")       
+
+class Monitor(Student, Teacher):
+    def __init__(self, name, roll_no, subject):
+        Student.__init__(self, name, roll_no)   # ab safe hai, Teacher ko accidentally call nahi karega
+        self.subject = subject
+
+    def show(self):
+        print(f"Name: {self.name}, Roll_no: {self.roll_no}, Subject: {self.subject}")                
