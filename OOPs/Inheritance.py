@@ -200,4 +200,12 @@ class Student(Person):
         self.roll_no = roll_no
 
     def show(self):
-        print(f"Name: {self.name}, Roll_no: {self.roll_no}")        
+        print(f"Name: {self.name}, Roll_no: {self.roll_no}") 
+
+class Teacher(Person):
+    def __init__(self, name, subject):
+        Person.__init__(self, name)   # yaha bhi direct call
+        self.subject = subject
+
+    def show(self):
+        print(f"Name: {self.name}, Subject: {self.subject}")               
