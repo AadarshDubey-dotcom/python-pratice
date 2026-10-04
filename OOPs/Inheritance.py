@@ -193,3 +193,11 @@ class Person:
 
     def show(self):
         print("Name:", self.name)
+
+class Student(Person):
+    def __init__(self, name, roll_no):
+        Person.__init__(self, name)   
+        self.roll_no = roll_no
+
+    def show(self):
+        print(f"Name: {self.name}, Roll_no: {self.roll_no}")        
