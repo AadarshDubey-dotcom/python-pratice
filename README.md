@@ -25,4 +25,4 @@ python Basic/Variable.py
 - This repository is a starting point for learning Python syntax and variable assignment.
 
 # hello i am late so i dont code today 
-# kal kruga me 
+# kal kruga me paka  aaj man nhi hai 
