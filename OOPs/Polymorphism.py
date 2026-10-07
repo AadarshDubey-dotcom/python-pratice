@@ -13,3 +13,8 @@ class Cat(Animal):
 animal = [Dog(), Cat(), Animal()]
 for a in animal:
      print(a.sound())
+
+# Polymorphism     
+class Shape:
+     def area(self):
+          print("Area cannot be defined for generic shape")
