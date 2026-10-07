@@ -24,4 +24,11 @@ class Circle(Shape):
      
      def Area(self):
           return 3.14 * self.radius * self.radius
-     
+class Reactangle(Shape):
+     def __init__(self, length, width):
+          self.length = length
+          self.width = width
+          
+     def Area(self):
+          return self.length * self.width
+          
