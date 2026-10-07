@@ -31,4 +31,7 @@ class Reactangle(Shape):
           
      def Area(self):
           return self.length * self.width
-          
+shape = [Circle(5), Reactangle(4,6)]
+
+for s in shape:
+     print(s.Area())          
