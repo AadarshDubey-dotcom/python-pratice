@@ -25,3 +25,4 @@ python Basic/Variable.py
 - This repository is a starting point for learning Python syntax and variable assignment.
 
 # ajj krege thoda sa coding
+# aaj mera sar dhung rh hai 
