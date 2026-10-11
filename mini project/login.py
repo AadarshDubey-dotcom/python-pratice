@@ -12,3 +12,7 @@ def login(username, password):
                return "wrong password"
      else:
           return "user not found"
+
+print(login("adarsh", "1234"))
+print(login("adarsh", "wrong"))
+print(login("test", "1234"))
