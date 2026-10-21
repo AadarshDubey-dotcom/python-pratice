@@ -20,3 +20,13 @@ print(printIncreasingPower(10))
 n = [2,0,4,0,6,0]
 n = [5 if x == 0 else x for x in n]
 print(n)
+
+def convertZeroToFive(n):
+     str_num = str(n)
+     new_str = str_num.replace("0", "5")
+     
+     return int(new_str)
+     
+number = 670202100
+result = convertZeroToFive(number)
+print(result)
