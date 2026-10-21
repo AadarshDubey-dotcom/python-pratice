@@ -14,3 +14,5 @@ def printIncreasingPower(x):
         i += 1
         
 print(printIncreasingPower(10))        
+
+#Convert all 0s to 5"
