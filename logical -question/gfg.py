@@ -17,3 +17,6 @@ print(printIncreasingPower(10))
 
 #Convert all 0s to 5"
 """Replace Method: Python ka built-in .replace('0', '5') method use karke saare '0' ko '5' mein badal dete hain."""
+n = [2,0,4,0,6,0]
+n = [5 if x == 0 else x for x in n]
+print(n)
