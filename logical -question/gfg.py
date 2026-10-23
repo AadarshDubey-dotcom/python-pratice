@@ -32,3 +32,7 @@ result = convertZeroToFive(number)
 print(result)
 
 #Print GFG n times
+n = int(input())
+
+for i in range(n):
+    print("GFG")
