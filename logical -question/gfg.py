@@ -36,3 +36,11 @@ n = int(input())
 
 for i in range(n):
     print("GFG")
+
+def printGFG(n):
+    for i in range(n):
+        print("GFG")
+
+n = int(input())
+printGFG(n)
+
