@@ -30,3 +30,5 @@ def convertZeroToFive(n):
 number = 670202100
 result = convertZeroToFive(number)
 print(result)
+
+#Print GFG n times
