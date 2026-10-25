@@ -17,3 +17,6 @@ List se kisi element ko hatane ke liye:
 remove(value): Naam ke hisaab se element hatata hai.
 
 pop(index): Index ke hisaab se element hatata hai (agar index na dein toh aakhiri element hata deta hai)."""
+
+#Two SumProblem: Ek list di gayi hai aur ek target number. Aapko aise do numbers ke indices (positions) batane hain jinka sum target ke barabar ho.Logic: Hum ek Dictionary (hash map) ka use karte hain taaki har number ka complement (target - num) check kar sakein ki pehle se dekha hai ya nahi. Isse time complexity $O(n)$ ho jaati hai.
+
