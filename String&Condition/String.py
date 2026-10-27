@@ -10,3 +10,5 @@ print(str[2:])
 text = "ABCD"
 lower_case = text.lower()
 print(lower_case)
+
+#check the string is palidrome
