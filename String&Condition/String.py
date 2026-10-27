@@ -12,3 +12,8 @@ lower_case = text.lower()
 print(lower_case)
 
 #check the string is palidrome
+def is_palindrome(text):
+     cleaned = text
+     return cleaned == cleaned[::-1]
+     
+print(is_palindrome("madam"))     
