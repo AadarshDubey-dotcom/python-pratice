@@ -17,4 +17,8 @@ import math
 def heap_height(n):
      if n < 0:
           return -1
-     return 
+     return math.floor(math.log2(n))
+
+print(heap_height(1))
+print(heap_height(7))
+print(heap_height(16))
