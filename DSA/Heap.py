@@ -22,3 +22,5 @@ def heap_height(n):
 print(heap_height(1))
 print(heap_height(7))
 print(heap_height(16))
+
+# Minimum Cost of Ropes
