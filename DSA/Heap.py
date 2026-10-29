@@ -12,3 +12,9 @@ k = 2
 print(findklargest(nums, k))
 
 #Calculate height of a heap
+import math
+
+def heap_height(n):
+     if n < 0:
+          return -1
+     return 
