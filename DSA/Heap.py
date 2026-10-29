@@ -24,3 +24,8 @@ print(heap_height(7))
 print(heap_height(16))
 
 # Minimum Cost of Ropes
+import heapq
+
+def min_cost_of_cost(lengths):
+     heapq.heapify(lengths)
+     total_cost = 0
