@@ -40,3 +40,6 @@ def min_cost_of_cost(lengths):
           heapq.heappush(lengths, cost)
           
      return total_cost
+
+ropes = [4,3,2,6]     
+print("Minimum Cost of Ropes", min_cost_of_cost(ropes))
