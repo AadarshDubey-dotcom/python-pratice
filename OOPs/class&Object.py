@@ -89,3 +89,9 @@ class Car:
           self.brand = brand
           self.model = model
           self.year = year
+     
+     def displayDetailed(self):
+          print("Car Detailed")
+          print("Brand :", self.brand)
+          print("Model :", self.model)
+          print("Year :", self.year)     
