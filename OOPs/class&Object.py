@@ -94,4 +94,7 @@ class Car:
           print("Car Detailed")
           print("Brand :", self.brand)
           print("Model :", self.model)
-          print("Year :", self.year)     
+          print("Year :", self.year)   
+
+car1 = Car("Tesla", "Model s", 2022)          
+car2 = Car("BMW", "x5", 2021)            
