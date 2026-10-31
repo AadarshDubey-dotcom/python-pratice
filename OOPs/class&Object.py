@@ -82,3 +82,5 @@ car2 = Car("BMW", "black")
 
 car1.drive()
 car2.drive()
+
+#create Class
