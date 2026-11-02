@@ -9,4 +9,5 @@ elif(light == "Green"):
 else:
     print("light is broken") 
 
-# hacker rank promblem               
+# hacker rank promblem        
+n = int(input())       
