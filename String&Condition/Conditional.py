@@ -18,3 +18,4 @@ elif 2 <= n <= 5:
     elif 6 <= n <= 20: 
     print("Weird")
 else:    
+    print("Not Weird")
