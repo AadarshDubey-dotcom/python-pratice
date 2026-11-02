@@ -7,4 +7,6 @@ elif(light == "Yellow"):
 elif(light == "Green"):
     print("Go")
 else:
-    print("light is broken")            
+    print("light is broken") 
+
+# hacker rank promblem               
