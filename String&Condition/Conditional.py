@@ -10,4 +10,8 @@ else:
     print("light is broken") 
 
 # hacker rank promblem        
-n = int(input())       
+n = int(input()) 
+if n % 2 != 0:  
+    print("Weird")
+elif 2 <= n <= 5:  
+    print("Not Weird")      
