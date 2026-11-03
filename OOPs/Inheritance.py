@@ -13,6 +13,21 @@ print(s2.speak())
 s1 = Dog()
 print(s1.speak())
 
+class Animal:
+     def __init__(self, name):
+          self.name = name
+          
+     def info(self):
+          print("Animal name : ", self.name)
+          
+class Dog(Animal):
+     def sound(self):
+          print(self.name, "barks")
+          
+d = Dog("Buddy")
+d.info()
+d.sound()
+
 class Parent:
      def show(self):
           print("this is parent class")
