@@ -101,3 +101,14 @@ car2 = Car("BMW", "x5", 2021)
 
 car1.displayDetailed()
 car2.displayDetailed()
+
+class Dog:
+     species = "Canine"
+     
+     def __init__(self, name, age):
+          self.name = name 
+          self.age = age
+          
+dog1 = Dog('Bubby', 3)
+print("dog name is :" + dog1.name)
+print("dog age :" + str(dog1.age))
