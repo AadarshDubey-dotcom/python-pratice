@@ -36,6 +36,7 @@ shape = [Circle(5), Reactangle(4,6)]
 for s in shape:
      print(s.Area()) 
 
+# Compile-time Polymorphism
 class calculator:
      def multiply(self, a=1, b=1, *args):
           result = a * b 
