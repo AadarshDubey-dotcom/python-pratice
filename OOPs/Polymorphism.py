@@ -48,4 +48,6 @@ calc = calculator()
 print(calc.multiply())
 print(calc.multiply(4))
 print(calc.multiply(2,4))
-print(calc.multiply(2,4,6))             
+print(calc.multiply(2,4,6))     
+
+# Runtime Polymorphism (Overriding)
