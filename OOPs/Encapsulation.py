@@ -96,6 +96,7 @@ emp = Employee("Harsh")
 emp.display_name()
 print(emp.name)
 
+#Protected Attribute
 class Employee:
      def __init__(self, name, age):
           self.name = name
