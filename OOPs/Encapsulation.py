@@ -76,3 +76,10 @@ class Employee:
 emp = Employee("Aman", 50000)          
 print(emp.name)
 print(emp.__salary)
+
+"""Output
+Fedrick 
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 8, in <module>
+AttributeError: 'Employee' object has no attribute '__salary'"""
