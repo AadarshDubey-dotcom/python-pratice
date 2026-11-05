@@ -71,7 +71,7 @@ print(d1.write_code())
 class Employee:
      def __init__(self, name, salary):
           self.name = name  # public attribute
-          self.__salary = salary
+          self.__salary = salary #private attribute
           
 emp = Employee("Aman", 50000)          
 print(emp.name)
