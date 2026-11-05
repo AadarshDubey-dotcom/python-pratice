@@ -67,3 +67,12 @@ print(m1.manage_team())
 
 print(d1.show_detail())
 print(d1.write_code())
+
+class Employee:
+     def __init__(self, name, salary):
+          self.name = name
+          self.__salary = salary
+          
+emp = Employee("Aman", 50000)          
+print(emp.name)
+print(emp.__salary)
