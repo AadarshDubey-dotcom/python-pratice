@@ -104,8 +104,8 @@ class Employee:
           
 class SubEmployee(Employee):
      def show_age(self):
-          print("Age : ", self._age)
+          print("Age : ", self._age)   # Accessible in subclass
 
 emp = SubEmployee("Rose", 30)          
-print(emp.name)
-emp.show_age()
+print(emp.name)   # Public accessible
+emp.show_age()     # Protected accessed through subclass
