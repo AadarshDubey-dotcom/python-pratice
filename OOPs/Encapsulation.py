@@ -83,3 +83,5 @@ ERROR!
 Traceback (most recent call last):
   File "<main.py>", line 8, in <module>
 AttributeError: 'Employee' object has no attribute '__salary'"""
+
+# Public Attribute
