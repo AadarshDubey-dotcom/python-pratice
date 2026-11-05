@@ -70,7 +70,7 @@ print(d1.write_code())
 
 class Employee:
      def __init__(self, name, salary):
-          self.name = name
+          self.name = name  # public attribute
           self.__salary = salary
           
 emp = Employee("Aman", 50000)          
