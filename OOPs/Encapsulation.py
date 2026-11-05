@@ -99,8 +99,8 @@ print(emp.name)
 #Protected Attribute
 class Employee:
      def __init__(self, name, age):
-          self.name = name
-          self._age = age
+          self.name = name  #public attribute
+          self._age = age   #protected attributeS
           
 class SubEmployee(Employee):
      def show_age(self):
