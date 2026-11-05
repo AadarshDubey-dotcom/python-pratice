@@ -113,13 +113,13 @@ emp.show_age()     # Protected accessed through subclass
 #Private members
 class Employee:
      def __init__(self, name, salary):
-          self.name = name 
-          self.__salary = salary
+          self.name = name #public attribute
+          self.__salary = salary #private attribute
      
      def show_salary(self):
-          print("Salary :", self.__salary)
+          print("Salary :", self.__salary)    #Private accessed through public method
           
 emp = Employee('Aman', 20000)
-print(emp.name)
-emp.show_salary()
-print(emp.__salary)
+print(emp.name)         #Public accessible
+emp.show_salary()     #Private accessed through public method
+print(emp.__salary)   #Private members are not accessible outside the class
