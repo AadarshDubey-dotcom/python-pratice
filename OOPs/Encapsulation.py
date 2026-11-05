@@ -109,3 +109,5 @@ class SubEmployee(Employee):
 emp = SubEmployee("Rose", 30)          
 print(emp.name)   # Public accessible
 emp.show_age()     # Protected accessed through subclass
+
+#Private members
