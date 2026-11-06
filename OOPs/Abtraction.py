@@ -57,3 +57,4 @@ g = English()
 print(g.say_hello())
 
 #Components of Abstraction
+#1. Abstract Method
