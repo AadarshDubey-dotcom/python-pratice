@@ -58,3 +58,9 @@ print(g.say_hello())
 
 #Components of Abstraction
 #1. Abstract Method
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+     @abstractmethod
+     def make_sound(self):
+          pass
