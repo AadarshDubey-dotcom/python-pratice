@@ -85,3 +85,18 @@ print(dog.move())
 print(dog.make_sound())
 
 #3. Abstract Properties
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+     @property
+     @abstractmethod
+     def species(self):
+          pass
+     
+class Dog(Animal):
+     @property
+     def species(self):
+          return "Canine"
+          
+dog = Dog()
+print(dog.species)
