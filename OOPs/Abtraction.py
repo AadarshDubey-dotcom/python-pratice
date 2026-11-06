@@ -55,3 +55,5 @@ class English(Greet):
           
 g = English()          
 print(g.say_hello())
+
+#Components of Abstraction
