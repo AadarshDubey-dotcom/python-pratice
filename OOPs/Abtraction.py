@@ -83,3 +83,5 @@ class Dog(Animal):
 dog = Dog()
 print(dog.move())
 print(dog.make_sound())
+
+#3. Abstract Properties
