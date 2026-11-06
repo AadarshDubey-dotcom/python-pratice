@@ -64,3 +64,5 @@ class Animal(ABC):
      @abstractmethod
      def make_sound(self):
           pass
+
+#2. Concrete Method
