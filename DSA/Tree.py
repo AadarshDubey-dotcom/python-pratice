@@ -30,3 +30,16 @@ class BST:
                self.inorder(root.left)
                print(root.key, end=" ")
                self.inorder(root.right)
+
+bst = BST()
+root = None
+root = bst.insertion(root, 50)
+root = bst.insertion(root, 30)
+root = bst.insertion(root, 20)     
+root = bst.insertion(root, 40)
+root = bst.insertion(root, 70)
+root = bst.insertion(root, 60)     
+
+print("Inorder traversal of the BST:")
+bst.inorder(root)
+
