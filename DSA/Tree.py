@@ -17,3 +17,16 @@ class BST:
           elif key > root.key:
                root.right = self.insertion(root.right, key)
           return  
+
+     def search(self, root, key):
+          if root is None or root.key == key:
+               return root
+          if key < root.key:
+               return self.search(root.left, key)
+          return self.search(root.right, key)  
+
+     def inorder(self, root):
+          if root:
+               self.inorder(root.left)
+               print(root.key, end=" ")
+               self.inorder(root.right)
