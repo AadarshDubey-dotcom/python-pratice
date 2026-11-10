@@ -43,3 +43,9 @@ root = bst.insertion(root, 60)
 print("Inorder traversal of the BST:")
 bst.inorder(root)
 
+key = 40
+if bst.search(root, key):
+     print(f"\nkey {key} found in the BST.")
+else:
+     print(f"\nkey {key} not found in the BST.")  
+          
