@@ -26,3 +26,12 @@ arr.pop(1)
 print(arr)
 
 #3. Searching (Element ko dhoondna)
+def Linear_search(arr, target):
+     for i in range(len(arr)):
+          if arr[i] == target:
+               return i
+     return -1   
+     
+array = [1,23,4,5]
+result = Linear_search(array, 4)
+print(result)
