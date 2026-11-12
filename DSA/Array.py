@@ -43,3 +43,16 @@ arr.sort()    #acending order
 arr.sort(reverse=True)  #descending order
 
 #. Kadane’s Algorithm (Maximum Subarray Sum)
+def max_subarray_sum(arr):
+     max_current = max_gobal = arr[0]
+     
+     for i in range(1, len(arr)):
+          max_current = max(arr[i], max_current + arr[i])
+          if max_current > max_gobal:
+               max_gobal = max_current
+     
+     return max_gobal  
+     
+print(max_subarray_sum([-2,1,-3,4,-1,2,1,-5,4]))
+
+
