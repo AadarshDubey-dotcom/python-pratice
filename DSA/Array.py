@@ -35,3 +35,5 @@ def Linear_search(arr, target):
 array = [1,23,4,5]
 result = Linear_search(array, 4)
 print(result)
+
+# 4. Sorting (Order mein arrange karna)
