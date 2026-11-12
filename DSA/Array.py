@@ -55,4 +55,19 @@ def max_subarray_sum(arr):
      
 print(max_subarray_sum([-2,1,-3,4,-1,2,1,-5,4]))
 
+#2. Two Pointer Approach
+def reversed_arr(arr):
+     left = 0
+     right = len(arr)-1
+     
+     while left < right:
+          arr[left], arr[right] = arr[right], arr[left]
+          left += 1
+          right-=1
+          
+     return arr
+     
+array = [5,3,2,6,43,6,1]
 
+result = reversed_arr(array)
+print(result)
