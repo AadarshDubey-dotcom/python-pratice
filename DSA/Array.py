@@ -41,3 +41,5 @@ arr = [1,6,43,554,32,2]
 
 arr.sort()    #acending order
 arr.sort(reverse=True)  #descending order
+
+#. Kadane’s Algorithm (Maximum Subarray Sum)
