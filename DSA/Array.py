@@ -37,3 +37,7 @@ result = Linear_search(array, 4)
 print(result)
 
 # 4. Sorting (Order mein arrange karna)
+arr = [1,6,43,554,32,2]
+
+arr.sort()
+arr.sort(reverse=True)
