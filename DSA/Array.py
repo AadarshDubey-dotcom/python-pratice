@@ -39,5 +39,5 @@ print(result)
 # 4. Sorting (Order mein arrange karna)
 arr = [1,6,43,554,32,2]
 
-arr.sort()
-arr.sort(reverse=True)
+arr.sort()    #acending order
+arr.sort(reverse=True)  #descending order
