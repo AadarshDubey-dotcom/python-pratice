@@ -12,3 +12,5 @@ class Solution:
 # Object create karo
 solution = Solution()
 print(solution.hasDuplicate([1,2,3,4]))  
+
+# 1. Traversal (Har element ko visit karna)
