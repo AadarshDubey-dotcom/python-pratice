@@ -1,4 +1,4 @@
-# 1
+# 1 string method
 number = "123"
 
 reverse_string = number[::-1]
