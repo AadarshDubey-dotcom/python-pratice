@@ -36,3 +36,6 @@ def moveZeroes(nums):
                nums[slow], nums[fast] = nums[fast], nums[slow]
                slow += 1
      return nums
+
+arr = [0, 1, 0, 3, 12]     
+print(moveZeroes(arr))
