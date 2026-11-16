@@ -16,4 +16,15 @@ def twosum(number, traget):
                right -= 1
      return []          
                
-print(twosum([2,7,11,15], 9))               
+print(twosum([2,7,11,15], 9))      
+
+"""Problem: Move Zeroes (In-Place Rearrangement)
+Problem Statement:
+Aapko ek integer array nums di gayi hai. Aapko saare 0s (zeros) ko array ke aakhri (end) mein shift karna hai, aur baaki non-zero numbers ka relative order (sequence) change nahi hona chahiye.
+
+Constraint: Yeh kaam aapko bina koi extra array banaye (in-place) karna hai.
+
+Example:
+Input: nums = [0, 1, 0, 3, 12]
+
+Output: [1, 3, 12, 0, 0]"""
