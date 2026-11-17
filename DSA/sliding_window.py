@@ -9,24 +9,28 @@ Output: 9
 
 Explanation: Subarray of size 3 with maximum sum is [5, 1, 3], aur inka sum 5 + 1 + 3 = 9 hota hai."""
 def maxSumSubarray(arr, k):
-     n = len(arr)
-     if k > n:
-          return -1
-    
-    window_sum = 0
-    max_sum = 0
+  n = len(arr)
+  if k > n:
+    return -1
 
-    for i in range(k):
-          window_sum += arr[i]
-     
-     max_sum = window_sum += arr[i]
+  window_sum = 0
+  max_sum = 0
 
-    for i in range(k, n):
-          window_sum = window_sum + arr[i] - arr[i-k]
-          
-          max_sum = max(max_sum, window_sum)
-    return max_sum      
+  # 1. Pehli window (0 se k-1 tak) ka sum nikalo
+  for i in range(k):
+    window_sum += arr[i]
 
-arr = [2, 1, 5, 1, 3,2]     
+  # Sahi tarika: Seedha max_sum ko window_sum ke barabar kar do
+  max_sum = window_sum
+
+  # 2. Window ko aage slide karo
+  for i in range(k, n):
+    window_sum = window_sum + arr[i] - arr[i - k]
+    max_sum = max(max_sum, window_sum)
+
+  return max_sum
+
+
+arr = [2, 1, 5, 1, 3, 2]
 k = 3
-print(maxSumSubarray(arr, k))
+print(maxSumSubarray(arr, k))  # Output: 9
