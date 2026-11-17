@@ -8,3 +8,7 @@ Input: arr = [2, 1, 5, 1, 3, 2], k = 3
 Output: 9
 
 Explanation: Subarray of size 3 with maximum sum is [5, 1, 3], aur inka sum 5 + 1 + 3 = 9 hota hai."""
+def maxSumSubarray(arr, k):
+     n = len(arr)
+     if k > n:
+          return -1
