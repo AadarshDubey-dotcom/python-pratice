@@ -26,3 +26,7 @@ def maxSumSubarray(arr, k):
           
           max_sum = max(max_sum, window_sum)
     return max_sum      
+
+arr = [2, 1, 5, 1, 3,2]     
+k = 3
+print(maxSumSubarray(arr, k))
