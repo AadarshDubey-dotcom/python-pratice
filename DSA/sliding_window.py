@@ -2,3 +2,9 @@
 Aapko ek integer array arr aur ek integer k diya gaya hai.
 Aapko ek aisi contiguous subarray dhundhni hai jiski size exact k ho,
 aur uska sum maximum (sabse bada) ho. Woh maximum sum return karna hai."""
+"""Example:
+Input: arr = [2, 1, 5, 1, 3, 2], k = 3
+
+Output: 9
+
+Explanation: Subarray of size 3 with maximum sum is [5, 1, 3], aur inka sum 5 + 1 + 3 = 9 hota hai."""
