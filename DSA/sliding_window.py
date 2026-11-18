@@ -34,3 +34,8 @@ def maxSumSubarray(arr, k):
 arr = [2, 1, 5, 1, 3, 2]
 k = 3
 print(maxSumSubarray(arr, k))  # Output: 9
+
+"""📝 Problem: Longest Substring Without Repeating Characters
+Problem Statement:
+Aapko ek string s di gayi hai. Aapko ek aisi sabse lambi substring ki length find karni hai
+jisme koi bhi character repeat na hota ho (yani saare characters unique hon).
