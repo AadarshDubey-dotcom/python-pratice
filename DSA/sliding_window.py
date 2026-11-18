@@ -39,3 +39,12 @@ print(maxSumSubarray(arr, k))  # Output: 9
 Problem Statement:
 Aapko ek string s di gayi hai. Aapko ek aisi sabse lambi substring ki length find karni hai
 jisme koi bhi character repeat na hota ho (yani saare characters unique hon)."""
+def lengthOfLongestSubstring(s: str) -> int:
+     char_set = set()
+     left = 0
+     max_len = 0
+
+     for right in range(len(s)):
+          while s[right] in char_set:
+               char_set.remove(s[left])
+               left += 1
