@@ -52,3 +52,6 @@ def lengthOfLongestSubstring(s: str) -> int:
           
           max_len = max(max_len, right - left + 1)
      return max_len     
+print(lengthOfLongestSubstring('abcabcbb'))  # Output: 3 ("abc")
+print(lengthOfLongestSubstring('bbbbb'))  # Output: 1 ("b")
+print(lengthOfLongestSubstring('pwwkew'))  # Output: 3 ("wke")
