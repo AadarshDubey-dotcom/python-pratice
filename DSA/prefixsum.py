@@ -6,3 +6,5 @@ num = [4,2,7,1,5]
 prefix = [0] * (len(num) + 1)
 for i in range(len(num)):
      prefix[i + 1] = prefix[i] + num[i]
+def range_sum(left, right):
+     return prefix[right + 1] - prefix[left]     
