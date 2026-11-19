@@ -8,5 +8,6 @@ for i in range(len(num)):
      prefix[i + 1] = prefix[i] + num[i]
 def range_sum(left, right):
      return prefix[right + 1] - prefix[left]     
-print(range_sum(1,3))    
-print(range_sum(1,4))
+print(range_sum(1,3))    # 14 - 4 = 10
+print(range_sum(0, 4))  # 19 - 0 = 19
+
