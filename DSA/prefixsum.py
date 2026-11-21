@@ -25,3 +25,5 @@ def subarray_sum_k(nums: list[int], k: int) -> int:
 
           if target in freq:
                count += freq[target]
+          freq[current_sum] = freq.get(current_sum, 0) + 1
+     return count     
