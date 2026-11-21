@@ -11,3 +11,6 @@ def range_sum(left, right):
 print(range_sum(1,3))    # 14 - 4 = 10
 print(range_sum(0, 4))  # 19 - 0 = 19
 
+"""Question: Subarray Sum Equals K
+Tumhe ek integer array nums (jisme positive, negative, ya 0 ho sakte hain) aur ek integer k diya gaya hai.
+Tumhe batana hai ki aise kitne continuous subarrays hain jinka sum exact k ke barabar ho."""
