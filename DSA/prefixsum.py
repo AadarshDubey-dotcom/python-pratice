@@ -18,3 +18,7 @@ def subarray_sum_k(nums: list[int], k: int) -> int:
      freq = {0: 1}
      current_sum = 0
      count = 0
+
+     for num in nums:
+          current_sum += num
+          target = current_sum - k 
