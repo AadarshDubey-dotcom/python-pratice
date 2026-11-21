@@ -27,3 +27,5 @@ def subarray_sum_k(nums: list[int], k: int) -> int:
                count += freq[target]
           freq[current_sum] = freq.get(current_sum, 0) + 1
      return count     
+print(subarray_sum_k([1,2,3], 3))  
+print(subarray_sum_k([1,1,1], 2))
