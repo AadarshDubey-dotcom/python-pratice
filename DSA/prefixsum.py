@@ -22,3 +22,6 @@ def subarray_sum_k(nums: list[int], k: int) -> int:
      for num in nums:
           current_sum += num
           target = current_sum - k 
+
+          if target in freq:
+               count += freq[target]
