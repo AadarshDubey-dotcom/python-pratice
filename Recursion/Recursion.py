@@ -14,5 +14,8 @@ print(factorial(5))
 def reverse_string(s: list[str], left: int = 0, right: int | None = None) -> None:
      if right is None:
           right = len(s) - 1
-    if left >= right:
+     if left >= right:
         return
+     s[left], s[right] = s[right], s[left]
+     
+     reverse_string(s, left + 1, right -1)
