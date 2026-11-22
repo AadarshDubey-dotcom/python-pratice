@@ -19,3 +19,6 @@ def reverse_string(s: list[str], left: int = 0, right: int | None = None) -> Non
      s[left], s[right] = s[right], s[left]
      
      reverse_string(s, left + 1, right -1)
+char = ["h", "e", "l", "l", "o"]
+reverse_string(char)
+print(char)
