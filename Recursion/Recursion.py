@@ -6,3 +6,8 @@ def factorial(n: int) -> int:
      return n * factorial(n-1)
      
 print(factorial(5)) 
+
+""" Reverse a String (Basic Recursion)
+- Problem: Ek character list ya string s di gayi hai. Bina built-in reverse ya extra array banaye, recursion ka use karke ise reverse karo.
+- Example: ["h", "e", "l", "l", "o"] $\rightarrow$ ["o", "l", "l", "e", "h"]
+- Hint: Do pointers (left, right) ko recursive function mein pass karo; swap karke left + 1, right - 1 call karo jab tak left < right ho."""
