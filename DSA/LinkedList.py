@@ -5,3 +5,7 @@ memory (jaise array) mein nahi, balki pointers / references ke zariye ek-dusre s
 Har node sirf agle node (next) ka reference rakhta hai.
 
 Traversal sirf one direction (head se tail tak) mein hota hai."""
+class Node:
+     def __init__(self, data):
+          self.data = data
+          self.next = None 
