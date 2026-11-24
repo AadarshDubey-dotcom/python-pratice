@@ -1,0 +1,1 @@
+"""Linked List ek linear data structure hai jisme elements (jinhe nodes kehte hain) contiguous memory (jaise array) mein nahi, balki pointers / references ke zariye ek-dusre se judey hote hain."""
