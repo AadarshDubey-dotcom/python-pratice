@@ -22,3 +22,8 @@ class SinglyLinkedList:
                print(curr.data, end=" => ")
                curr = curr.next
           print("None")                      
+li = SinglyLinkedList()
+li.insert_at_head(18)
+li.insert_at_head(20)
+li.insert_at_head(38)
+li.print_list()          
