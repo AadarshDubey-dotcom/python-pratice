@@ -15,4 +15,10 @@ class SinglyLinkedList:
      def insert_at_head(self, data):
                new_node = Node(data)
                new_node.next = self.head
-               self.head = new_node                 
+               self.head = new_node     
+     def print_list(self):
+          curr = self.head
+          while curr:
+               print(curr.data, end=" => ")
+               curr = curr.next
+          print("None")                      
